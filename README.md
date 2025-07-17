@@ -1,8 +1,7 @@
 # 👾 Retro Space Invaders - Video Game
 
 
-<!-- Optional video or live demo -->
-<!-- ### [Gameplay Demo](https://your-video-link.com) -->
+
 
 <h2>Description</h2>
 This is a 2D arcade-style space shooter game developed in Python using Pygame. The player controls a battleship that must survive wave after wave of enemy ships, collecting power-ups and dodging enemy fire. The game features a scrolling background, high score tracking, power-ups, and two-player mode,  all wrapped in a pixel-art-inspired retro design.
@@ -37,7 +36,8 @@ The game is modularly designed with clear decomposition:
 - **Power-ups**: Timed collectibles affecting gameplay
 - **Game modes**: Randomised behaviours for enemy waves
 
- **[Insert image: Decomposition diagram]**  
+
+<img src="https://imgur.com/a/nfm7KNW" height="80%" width="80%" />
 _A visual of how gameplay elements were broken down into manageable parts._
 
 ---
