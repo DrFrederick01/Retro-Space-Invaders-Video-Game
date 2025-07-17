@@ -51,7 +51,7 @@ The game begins with a retro-inspired main menu allowing the player to:
 
 Menus are consistent in styling and flow for smooth navigation.
 
-📷 **[Insert image: Main menu flow diagram or screenshot of actual main menu]**
+<img src="Screenshot 2025-07-17 120515.png" height="80%" width="80%" />
 
 ---
 
