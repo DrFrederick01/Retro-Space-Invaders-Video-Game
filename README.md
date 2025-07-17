@@ -22,10 +22,6 @@ This is a 2D arcade-style space shooter game developed in Python using Pygame. T
 
 <h2>🎮 Program Walk-Through</h2>
 
-This project is a retro-style 2D space shooter game built with Python and Pygame. It features scrolling backgrounds, enemy waves, power-ups, laser combat, score tracking, and multiple game modes (including two-player support). Here's a breakdown of the core mechanics and visuals:
-
----
-
 ### 1. Game Structure & Decomposition
 
 The game is modularly designed with clear decomposition:
@@ -61,25 +57,24 @@ Menus are consistent in styling and flow for smooth navigation.
 - Enemies spawn randomly or in grid formations depending on the game mode.
 - Collision logic removes ships on impact and updates health/status bars.
 
-📷 **[Insert image: Player ship mid-game with enemy waves on screen]**
+<img src="Screenshot 2025-07-17 121242.png" height="80%" width="80%" />
 
 ---
 
 ### 4. Scrolling Background & Immersion
 
-A continuously moving background image simulates space traversal and boosts immersion.
+instead of moving the spaceship or enemies across space, the background itself moves, creating the illusion of motion while the player’s ship stays in place.
+For example in the image below, it looks like the airplane is flying forward, but really, the airplane stays still while the background scrolls from right to left. This is the same technique I used in the game to simulate action in space
 
-📷 **[Insert image: Background scrolling in action, showing parallax effect or frame update]**
+<img src="Screenshot 2025-07-17 122215.png" height="80%" width="80%" />
 
 ---
 
 ### 5. Power-Ups and Collisions
 
 - Power-ups randomly appear and must be collected before expiring.
-- Different effects can be added (e.g., laser upgrades or temporary invincibility).
-
-📷 **[Insert image: Power-up visible near player ship]**
-
+- Different effects can be added (e.g., laser upgrades or temporary invincibility)
+<img src="power ups.png" height="80%" width="80%" />
 ---
 
 ### 6. High Scores and Game Progression
@@ -87,7 +82,7 @@ A continuously moving background image simulates space traversal and boosts imme
 - A high-score tracker updates when a new wave is surpassed.
 - Difficulty increases with each wave via faster enemies or denser attack patterns.
 
- **[Insert image: Score screen or wave counter near HUD]**
+<img src="waves.png" height="80%" width="80%" />
 
 ---
 
@@ -95,9 +90,7 @@ A continuously moving background image simulates space traversal and boosts imme
 
 - Fully implemented second player with unique controls and health tracking.
 - Victory is determined when one ship survives longer than the other.
-
-📷 **[Insert image: Both player ships on screen with separate controls]**
-
+<img src="two player.png" height="80%" width="80%" />
 ---
 
 ### 8. Testing and Reliability
