@@ -37,7 +37,7 @@ The game is modularly designed with clear decomposition:
 - **Game modes**: Randomised behaviours for enemy waves
 
 
-<img src="https://imgur.com/a/nfm7KNW" height="80%" width="80%" />
+<img src="Screenshot 2025-07-16 160907.png" height="80%" width="80%" />
 _A visual of how gameplay elements were broken down into manageable parts._
 
 ---
